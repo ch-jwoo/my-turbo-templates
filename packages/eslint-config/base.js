@@ -1,7 +1,7 @@
 // @ts-check
 import eslint from '@eslint/js';
 import tseslint from 'typescript-eslint';
-import turboPlugin from 'eslint-config-turbo';
+import turboPlugin from 'eslint-config-turbo/flat';
 
 /**
  * Base ESLint configuration for TypeScript projects
@@ -13,7 +13,7 @@ export const baseConfig = [
   },
   eslint.configs.recommended,
   ...tseslint.configs.recommended,
-  turboPlugin,
+  ...turboPlugin,
   {
     files: ['**/*.ts', '**/*.tsx', '**/*.mts', '**/*.cts', '**/*.js', '**/*.jsx'],
 
