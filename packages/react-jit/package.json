@@ -10,6 +10,7 @@
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
+    "fix-lint": "eslint . --fix",
     "format": "prettier --write \"**/*.{ts,tsx}\"",
     "check-types": "tsc --noEmit"
   },
