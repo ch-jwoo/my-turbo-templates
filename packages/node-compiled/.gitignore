@@ -1,0 +1,6 @@
+# Build outputs
+dist/
+*.tsbuildinfo
+
+# Turborepo cache
+.turbo/
