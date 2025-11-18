@@ -7,7 +7,7 @@ export default [
   {
     languageOptions: {
       parserOptions: {
-        rootDir: __dirname,
+        tsconfigRootDir: __dirname,
       },
     },
     ignores: ['**/*.json', 'eslint.config.js'],
